@@ -24,8 +24,10 @@ Requirements
 ------------
 
 Ubuntu 16.04 und 18.04, CentOS 7, Debian 9 und 10, Amazon Linux 2, Fedora 30
+PHP Version 7.3
 
 Not yet tested with other versions and flavours of Linux - e.g. Debian 11.
+And neither with PHP Version 7.4
 
 Install
 -------
