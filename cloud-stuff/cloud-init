@@ -30,12 +30,12 @@ package_upgrade: true
 #
 system_info:
   default_user:
-    name: ec2-user
+    name: debian
     uid: 1000
     gecos: "cloud-init created default user"
     lock_passwd: True
     sudo: ["ALL=(ALL) NOPASSWD:ALL"]
-    home: /home/ec2-user
+    home: /home/debian
     shell: /bin/bash
     ssh-authorized-keys:
       - 'ssh-rsa <your ssh pub key here>'
