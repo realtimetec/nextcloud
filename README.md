@@ -14,30 +14,28 @@ Ansible Playbook to install
 or
 * Onlyoffice <https://www.onlyoffice.com>
 
-In less than 20 minutes.
-
 Most of the settings are recommentations from C. Rieger
 
 Visit his page for all details: <https://www.c-rieger.de/>
 
-Warning: Your existing nginx/php/mariadb setup will be over written. Up to now I tested this only on newly installed AWS EC2 Ubuntu, Debian, Fedora and CentOS machines. So backup of your existing configuration is a good advice.
+Warning: Your existing nginx/php/mariadb setup will be over written. Up to now I tested this only on newly installed Ubuntu, Debian, Fedora and CentOS machines. So backup of your existing configuration is a good advice.
 
 Requirements
 ------------
 
 Ubuntu 16.04 und 18.04, CentOS 7, Debian 9 und 10, Amazon Linux 2, Fedora 30
 
-Not yet tested with other versions and flavours of Linux.
+Not yet tested with other versions and flavours of Linux - e.g. Debian 11.
 
 Install
 -------
 
 ```bash
 # prepare your os and install ansible
-curl -s https://raw.githubusercontent.com/ReinerNippes/nextcloud/master/prepare_system.sh | /bin/bash
+curl -s https://raw.githubusercontent.com/realtimetec/nextcloud/master/prepare_system.sh | /bin/bash
 
 # clone this repo
-git clone https://github.com/ReinerNippes/nextcloud
+git clone https://github.com/realtimetec/nextcloud
 
 # change to nextcloud directory
 cd nextcloud
