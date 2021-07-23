@@ -41,10 +41,10 @@ Install
 
 ```console
 # prepare your os and install ansible
-curl -s https://raw.githubusercontent.com/ReinerNippes/nextcloud/nextcloud-reloaded/prepare_system.sh | /bin/bash
+curl -s https://raw.githubusercontent.com/realtimetec/nextcloud/nextcloud-reloaded/prepare_system.sh | /bin/bash
 
 # clone this repo
-git clone --branch nextcloud-reloaded https://github.com/ReinerNippes/nextcloud
+git clone --branch nextcloud-reloaded https://github.com/realtimetec/nextcloud
 
 # change to nextcloud directory
 cd nextcloud
