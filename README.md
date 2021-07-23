@@ -15,8 +15,6 @@ Ansible Playbook to install
 or
 * Onlyoffice <https://www.onlyoffice.com>
 
-In less than 20 minutes.
-
 Most of the settings are recommentations from C. Rieger (nginx) or Daniel Hansson (apache)
 
 Visit his page for all details: <https://www.c-rieger.de/> or <https://www.hanssonit.se/>
@@ -34,7 +32,9 @@ Ubuntu 16.04, 18.04 and 20.04 /  Debian 9/10
 
 CentOS 7/8 / Amazon Linux 2 / Fedora 30 are work in progress
 
-Not yet tested with other versions and flavours of Linux.
+PHP Version 7.3
+
+Not yet tested with other versions and flavours of Linux - e.g. Debian 11. And neither with PHP Version 7.4.
 
 Install
 -------
