@@ -59,7 +59,7 @@ nextcloud_mail_smtppwd      =
 nextcloud_archive           = https://download.nextcloud.com/server/releases/latest.tar.bz2
 
 # webserver type nginx or apache
-nextcloud_webserver_type    = nginx
+nextcloud_webserver_type    = apache
 
 # this sets the default region for phone numbers on your Nextcloud server
 # using ISO 3166-1 country codes such as DE for Germany, FR for France,
@@ -99,10 +99,6 @@ restic_repo          = ''
 restic_backup_day    = '*'
 restic_backup_minute = '0'
 restic_backup_hour   = '3'
-
-# Install Collabra Online
-# more info about collabora office: https://www.collaboraoffice.com/
-install_collabora     = false
 
 # Install Online Office
 # more info about onlyoffice office: https://www.onlyoffice.com
