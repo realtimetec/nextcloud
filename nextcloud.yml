@@ -25,15 +25,6 @@
     - webserver
     - php
 
-- name: 'install database'
-  hosts: database
-  become: true
-  gather_facts: false
-
-  roles:
-    - { role: mariadb,  when: (nextcloud_db_type == 'mysql') }
-    - { role: postgres, when: (nextcloud_db_type == 'pgsql') }
-
 - name: 'install elasticsearch'
   hosts: elasticsearch
   become: true
@@ -42,14 +33,6 @@
   roles:
     - { role: fulltextsearch, when: install_fulltextsearch|bool }
 
-- name: 'install collabora'
-  hosts: collabora
-  become: true
-  gather_facts: false
-
-  roles:
-    - { role: collabora,      when: install_collabora|bool }
-
 - name: 'install onlyoffice'
   hosts: onlyoffice
   become: true
@@ -57,14 +40,6 @@
 
   roles:
     - { role: onlyoffice,      when: install_onlyoffice|bool }
-
-- name: 'install coturn server'
-  hosts: coturn
-  become: true
-  gather_facts: false
-
-  roles:
-    - { role: talk,  when: install_talk|bool }
 
 - name: 'install nextcloud'
   hosts: nextcloud
