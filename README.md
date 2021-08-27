@@ -4,15 +4,12 @@ Nextcloud (Latest)
 Ansible Playbook to install
 
 * Nextcloud (Latest) - <https://nextcloud.com/>
-* nginx - <https://nginx.org/> or Apache <https://httpd.apache.org/>
+* Apache <https://httpd.apache.org/> or nginx - <https://nginx.org/>
 * PHP - <http://www.php.net/>
-* MariaDB - <https://mariadb.org/> or PostgreSQL <https://www.postgresql.org/>
 * redis - <https://redis.io/>
 * restic backup - <https://restic.readthedocs.io>
-* Nextcloud Talk
 * Fulltextsearch / Elasticsearch
-* Collabora Online <https://www.collaboraoffice.com/>
-or
+
 * Onlyoffice <https://www.onlyoffice.com>
 
 Most of the settings are recommentations from C. Rieger (nginx) or Daniel Hansson (apache)
